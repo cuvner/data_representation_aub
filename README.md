@@ -5,7 +5,7 @@ A repo for workshop materials
 
 
 ## Workshop slides
-[![Alt text](image-url)](https://docs.google.com/presentation/d/1AsWKkT2JVwwzPElJJ3eTW-O-f2DVIrblgDDbc8oOqC0/edit?usp=sharing
+[![Alt text](slides.png)](https://docs.google.com/presentation/d/1AsWKkT2JVwwzPElJJ3eTW-O-f2DVIrblgDDbc8oOqC0/edit?usp=sharing
 )
 
 
