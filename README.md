@@ -26,7 +26,7 @@ See the raw data [here](https://raw.githubusercontent.com/datasets/global-temp/m
 
 Text is data      
 Representing the novel [Mobey Dick](https://editor.p5js.org/cuvner/full/_K0ISiq-4) as animated text      
-[Kinetic typography](https://editor.p5js.org/cuvner/full/vbLTpRftr) using data captured from movement
+[Kinetic typography](https://editor.p5js.org/cuvner/sketches/J4SpAboEH) using data captured from movement
 
 
 
