@@ -24,6 +24,19 @@ A repo for workshop materials
 See the raw data [here](https://raw.githubusercontent.com/datasets/global-temp/main/data/monthly.csv)
 
 Text is data      
-Representing the novel [Mobey Dick](https://editor.p5js.org/cuvner/full/_K0ISiq-4) as animated text
+Representing the novel [Mobey Dick](https://editor.p5js.org/cuvner/full/_K0ISiq-4) as animated text      
 [Kinetic typography](https://editor.p5js.org/cuvner/full/vbLTpRftr) using data captured from movement
+
+
+
+
+
+
+
+
+
+
+
+
+
 
