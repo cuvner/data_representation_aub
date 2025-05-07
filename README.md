@@ -32,6 +32,94 @@ Representing the novel [Mobey Dick](https://editor.p5js.org/cuvner/full/_K0ISiq-
 [Kinetic typography](https://editor.p5js.org/cuvner/sketches/J4SpAboEH) using data captured from movement
 
 
+## Processing sound
+Paste this code into a new processing sketch. Click the screen to place circles
+
+
+```java
+import processing.sound.*;
+
+// ========== SoundInput CLASS ==========
+class SoundInput {
+  AudioIn input;
+  Amplitude rms;
+  float sum = 0;
+  float smoothingFactor = 0.25;
+
+  void init(PApplet parent) {
+    input = new AudioIn(parent, 0);
+    input.start();
+
+    rms = new Amplitude(parent);
+    rms.input(input);
+  }
+
+  float update() {
+    sum += (rms.analyze() - sum) * smoothingFactor;
+    float rms_scaled = sum * (height / 2.0) * 5.0;
+    return rms_scaled;
+  }
+}
+
+// ========== ReactiveCircle CLASS ==========
+class ReactiveCircle {
+  PVector pos;
+  float baseSize;
+  float hueOffset;
+
+  ReactiveCircle(float x, float y, float baseSize, float hueOffset) {
+    pos = new PVector(x, y);
+    this.baseSize = baseSize;
+    this.hueOffset = hueOffset;
+  }
+
+  void display(float soundLevel) {
+    float size = baseSize + soundLevel;
+
+    // Cycle hue smoothly
+    float hue = (frameCount + hueOffset) % 360;
+
+    colorMode(HSB, 360, 100, 100, 100);
+    fill(hue, 100, 100, 100);
+    noStroke();
+    ellipse(pos.x, pos.y, size, size);
+  }
+}
+
+// ========== MAIN SKETCH ==========
+SoundInput mic;
+ArrayList<ReactiveCircle> circles;
+
+void setup() {
+  size(800, 600);
+  colorMode(HSB, 360, 100, 100, 100);
+  mic = new SoundInput();
+  mic.init(this);
+  mic.smoothingFactor = random(0.05, 0.5);
+
+  circles = new ArrayList<ReactiveCircle>();
+}
+
+void draw() {
+  background(0, 0, 10);
+  float level = mic.update();
+
+  for (ReactiveCircle c : circles) {
+    c.display(level);
+  }
+
+}
+
+void mousePressed() {
+  float size = random(10, 80);
+  float hueOffset = random(0, 360);
+  circles.add(new ReactiveCircle(mouseX, mouseY, size, hueOffset));
+}
+
+
+```
+
+
 
 
 
