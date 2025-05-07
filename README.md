@@ -24,10 +24,10 @@ A repo for workshop materials
 [Global temps 1850-now](https://editor.p5js.org/cuvner/full/_V6MpEAHB)    
 See the raw data [here](https://raw.githubusercontent.com/datasets/global-temp/main/data/monthly.csv)
 
-[dynamic type generator](https://spacetypegenerator.com/)
-[kiel_m](https://www.kielm.com/)
+[dynamic type generator](https://spacetypegenerator.com/).    
+[kiel_m](https://www.kielm.com/).   
 
-Text is data      
+### Text is data      
 Representing the novel [Mobey Dick](https://editor.p5js.org/cuvner/full/_K0ISiq-4) as animated text      
 [Kinetic typography](https://editor.p5js.org/cuvner/sketches/J4SpAboEH) using data captured from movement
 
