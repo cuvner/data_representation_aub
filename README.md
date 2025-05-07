@@ -24,12 +24,13 @@ A repo for workshop materials
 [Global temps 1850-now](https://editor.p5js.org/cuvner/full/_V6MpEAHB)    
 See the raw data [here](https://raw.githubusercontent.com/datasets/global-temp/main/data/monthly.csv)
 
-[dynamic type generator](https://spacetypegenerator.com/).    
-[kiel_m](https://www.kielm.com/).   
+[dynamic type generator](https://spacetypegenerator.com/).      
+[kiel_m](https://www.kielm.com/).         
 
 
 ## P5JS
-[Basic mapping exercise](https://editor.p5js.org/cuvner/sketches/PyhZJIYGJ)      
+[Basic mapping exercise](https://editor.p5js.org/cuvner/sketches/PyhZJIYGJ)    
+[3d_map_accel](https://editor.p5js.org/cuvner/sketches/aqRVIX0RY)       
 
 ## Recording data
 ![Alt text](cp.png "a title")
