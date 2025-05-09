@@ -30,6 +30,10 @@ See the raw data [here](https://raw.githubusercontent.com/datasets/global-temp/m
 [kiel_m](https://www.kielm.com/).         
 
 
+![Alt text](seeboat.png "a title")
+
+
+
 ## P5JS
 [Basic mapping exercise](https://editor.p5js.org/cuvner/sketches/PyhZJIYGJ)    
 [3d_map_accel](https://editor.p5js.org/cuvner/sketches/aqRVIX0RY)       
