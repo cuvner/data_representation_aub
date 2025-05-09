@@ -18,8 +18,8 @@ A repo for workshop materials
 [Data diaries: Exploring the meaning of data](https://dl.acm.org/doi/10.1145/3490149.3501319)     
 [Data materialization: a hybrid process of crafting a teapot](https://dl.acm.org/doi/10.1145/3202918.3203087)                    
 [Metaphors and `Tacit' Data: the Role of Metaphors in Data and Physical Data Representations](https://dl.acm.org/doi/10.1145/3623509.3633355)        
-[See boat](https://www.untoldpossibilities.org/artboatandseeboat)     
-[More seeboat](http://lauraperovich.com/projects/waterQuality.html)      
+[See boat](https://www.untoldpossibilities.org/artboatandseeboat)-Laura Perovich     
+[More seeboat](http://lauraperovich.com/projects/waterQuality.html)-Laura Perovich      
 
 
 
