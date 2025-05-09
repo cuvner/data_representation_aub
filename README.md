@@ -21,6 +21,12 @@ A repo for workshop materials
 [See boat](https://www.untoldpossibilities.org/artboatandseeboat)     
 [More seeboat](http://lauraperovich.com/projects/waterQuality.html)      
 
+
+
+![Alt text](seeboat.png "a title")
+
+
+
 ## Example data representations
 
 [Global temps 1850-now](https://editor.p5js.org/cuvner/full/_V6MpEAHB)    
@@ -28,10 +34,6 @@ See the raw data [here](https://raw.githubusercontent.com/datasets/global-temp/m
 
 [dynamic type generator](https://spacetypegenerator.com/).      
 [kiel_m](https://www.kielm.com/).         
-
-
-![Alt text](seeboat.png "a title")
-
 
 
 ## P5JS
